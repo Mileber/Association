@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="设置">
+
+    <PreferenceCategory android:title="通用设置">
+
+        <CheckBoxPreference
+            android:key="prefer_notifyUpdate"
+            android:title="有新的升级通知我"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="关于">
+        <Preference android:title="应用版本"
+            android:key="prefer_AppVersion" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
